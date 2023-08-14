@@ -1,0 +1,127 @@
+.banner-con {
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 55px 80px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+}
+.left-side p:first-child {
+  color: #000;
+  font-family: "Gilroy-bold";
+  font-size: 60.726px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 65.91px; /* 108.537% */
+  margin-bottom: 25px;
+}
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.left-side p {
+  color: #9e9da2;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 116.667% */
+  margin-bottom: 62px;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: space-between;
+}
+.right-side img {
+  height: 582.81px;
+  width: 553px;
+}
+.form-download {
+  background-color: #75bf7a;
+  margin: 0 auto;
+  max-width: 1280px;
+  height: 166px;
+  border-radius: 10px;
+  padding: 50px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-download form {
+  display: flex;
+  justify-content: space-between;
+  width: 770px;
+  /* border: 1px solid #000; */
+}
+.form-download p {
+  color: #fff;
+  font-family: Gilroy-light;
+  font-size: 24.601px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 113.818% */
+}
+.form-download form input {
+  padding: 27px 35px;
+  width: 500px;
+  height: 67px;
+  border: none;
+  border-radius: 5px;
+  color: #dadada;
+  font-family: Gilroy-light;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0px; 
+}
+.form-download form button {
+  background-color: #000;
+  color: #fff;
+  font-family: Gilroy-bold;
+  border: none;
+  border-radius: 5px;
+  width: 240px;
+  height: 67px;
+  flex-shrink: 0;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 0px; /* 0% */
+}
+
+@media screen and (max-width: 768px) {
+  .banner-con {
+    flex-direction: column-reverse;
+    align-items: center;
+    overflow: hidden;
+    padding: 0px 20px;
+  }
+  .left-side {
+    margin-top: 32px;
+  }
+  .form-download{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 20px;
+    margin: 20px;
+  }
+  .form-download p{
+    margin-bottom: 20px;
+  }
+  .form-download form{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .form-download form input{
+    margin-bottom: 20px;
+    width: auto;
+  }
+  .form-download form button{
+    max-width: auto;
+  }
+}
