@@ -8,6 +8,10 @@
   background: #fff;
   /* border: 1px solid #75bf7a; */
 }
+.logo-con a img {
+  height: 49px;
+  width: 185px;
+}
 .header-con {
   height: 174px;
   display: flex;
@@ -43,11 +47,18 @@
 @media screen and (max-width: 768px) {
   .mobile-icon {
     display: block;
+  }
+  .icon {
     height: 29px;
     width: 29px;
-  }
-  .header-con{
+  } 
+  .header-con {
     padding: 44px 20px 30px 20px;
+    height: 100px;
+  }
+  .logo-con a img {
+    height: 26.35px;
+    width: 93px;
   }
   .menu {
     flex-direction: column;
@@ -56,7 +67,7 @@
     align-items: center;
     width: 100%;
     position: absolute;
-    top: 174px;
+    top: 100px;
     left: 100%;
     opacity: 0;
     transition: 0.5s ease;
@@ -68,7 +79,7 @@
   }
   .menu.active {
     position: absolute;
-    top: 174px;
+    top: 100px;
     left: 0;
     opacity: 1;
     z-index: 1;
