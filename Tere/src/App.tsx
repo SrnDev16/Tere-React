@@ -1,4 +1,5 @@
 import Banner from "./components/Banner"
+import Content1 from "./components/Content1"
 import Header from "./components/Header"
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
     <Header/> 
     <Banner/>
+    <Content1/>
     </>
   )
 }
