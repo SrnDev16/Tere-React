@@ -1,0 +1,139 @@
+.content-con {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100dvh;
+}
+.content-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 127px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+.title h2,
+span {
+  color: #000;
+  font-family: Gilroy-bold;
+  font-size: 46.386px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 50.346px; /* 108.537% */
+  margin-bottom: 25px;
+}
+.title span {
+  color: #75bf7a;
+}
+.title p {
+  color: #9e9da2;
+  text-align: center;
+  font-family: Gilroy-light;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 113.043% */
+}
+.details {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 100px;
+}
+.left-box {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin: 40px 0;
+}
+.number {
+  width: 60.819px;
+  height: 60.819px;
+  position: relative;
+  background-image: url("../assets/images/curcle.svg");
+  background-position: center;
+}
+.number h3 {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-55%, -50%);
+  color: #75bf7a;
+  font-family: Gilroy-bold;
+  font-size: 34.108px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 37.019px; /* 108.537% */
+}
+.left-box h2,
+.right-box h2 {
+  color: #000;
+  text-align: right;
+  font-family: Gilroy-bold;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 50.346px; /* 228.847% */
+}
+.left-box p,
+.right p {
+  color: #9e9da2;
+  text-align: right;
+  font-family: Gilroy-light;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 130% */
+}
+.bg {
+  background-image: url("../assets/images/bg.svg");
+  width: 400px;
+  height: 400px;
+}
+.middle img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.middle {
+  position: relative;
+}
+.indicator {
+  top: 540px;
+  left: 50%;
+  position: absolute;
+}
+.right-box {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 40px 0;
+}
+.right-box p {
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .details {
+  position: relative;
+  }
+  .middle{
+    position: absolute;
+    top: 0;
+  }
+  .left{
+    position: absolute;
+    top: 600px;
+  }
+  .right{
+    position: absolute;
+    top: 1100px;
+  }
+  .left-box , .right-box{
+    align-items: center;
+  }
+  .left-box p, .right-box p{
+    text-align: center;
+  }
+
+}

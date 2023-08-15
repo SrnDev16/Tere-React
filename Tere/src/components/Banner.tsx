@@ -29,12 +29,14 @@ const Banner = () => {
           <img src={banner} alt="" />
         </div>
       </div>
-      <div className="form-download">
-        <p>Let’s go. Get a link <br/>to download the app.</p>
-        <form action="">
-          <input type="text" name="" id="" placeholder="Enter mobile phone number"/>
-          <button type="submit">APPLY TO DRIVE</button>
-        </form>
+      <div className="form-box">
+        <div className="form-download">
+          <p>Let’s go. Get a link <br/>to download the app.</p>
+          <form action="">
+            <input type="text" name="" id="" placeholder="Enter mobile phone number"/>
+            <button type="submit">APPLY TO DRIVE</button>
+          </form>
+        </div>
       </div>
     </div>
   );

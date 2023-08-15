@@ -5,6 +5,7 @@
   padding: 55px 80px;
   display: flex;
   justify-content: space-between;
+  background-color: #F9F9F9;;
   /* border: 1px solid black; */
 }
 .left-side p:first-child {
@@ -38,6 +39,11 @@
   height: 582.81px;
   width: 553px;
 }
+.form-box{
+  background-color: #F9F9F9;
+  max-width: 1440px;
+  margin: 0 auto;
+}
 .form-download {
   background-color: #75bf7a;
   margin: 0 auto;
@@ -69,7 +75,7 @@
   height: 67px;
   border: none;
   border-radius: 5px;
-  color: #dadada;
+  color: #000000;
   font-family: Gilroy-light;
   font-size: 20px;
   font-style: normal;
