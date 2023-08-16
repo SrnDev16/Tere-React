@@ -1,4 +1,3 @@
-import BenefitSection from "./BenefitSection";
 import "./Benefits.css";
 import img01 from "../assets/images/01.svg";
 import img02 from "../assets/images/02.svg";
