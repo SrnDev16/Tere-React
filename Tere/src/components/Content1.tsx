@@ -18,8 +18,8 @@ const Content1 = () => {
             </p>
           </div>
           <div className="details">
-            <div className="left">
-              <div className="left-box">
+            
+              <div className="left-box-1">
                 <div className="number">
                   <h3>1</h3>
                 </div>
@@ -32,7 +32,7 @@ const Content1 = () => {
                   ride that suits you
                 </p>
               </div>
-              <div className="left-box">
+              <div className="left-box-3">
                 <div className="number">
                   <h3>3</h3>
                 </div>
@@ -43,16 +43,18 @@ const Content1 = () => {
                   with fellow riders all the time
                 </p>
               </div>
-            </div>
-            <div className="middle">
-              <div className="bg"></div>
-              <img src={iPhone} alt="" />
-              <div className="indicator">
-                <img src={indicator} alt="indicator" />
+            
+           <div className="phone">
+              <div className="middle">
+                <div className="bg"></div>
+                <img src={iPhone} alt="" />
+                <div className="indicator">
+                  <img src={indicator} alt="indicator" />
+                </div>
               </div>
-            </div>
-            <div className="right">
-              <div className="right-box">
+              
+           </div>
+              <div className="right-box-2">
                 <div className="number">
                   <h3>2</h3>
                 </div>
@@ -64,7 +66,7 @@ const Content1 = () => {
                   publish it
                 </p>
               </div>
-              <div className="right-box">
+              <div className="right-box-4">
                 <div className="number">
                   <h3>4</h3>
                 </div>
@@ -75,7 +77,7 @@ const Content1 = () => {
                   cash to carry
                 </p>
               </div>
-            </div>
+            
           </div>
         </div>
       </div>
