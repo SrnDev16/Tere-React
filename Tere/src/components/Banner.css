@@ -5,7 +5,7 @@
   padding: 55px 80px;
   display: flex;
   justify-content: space-between;
-  background-color: #F9F9F9;;
+  background-color: #f9f9f9;
   /* border: 1px solid black; */
 }
 .left-side p:first-child {
@@ -39,8 +39,8 @@
   height: 582.81px;
   width: 553px;
 }
-.form-box{
-  background-color: #F9F9F9;
+.form-box {
+  background-color: #f9f9f9;
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -80,7 +80,7 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
-  line-height: 0px; 
+  line-height: 0px;
 }
 .form-download form button {
   background-color: #000;
@@ -98,6 +98,10 @@
 }
 
 @media screen and (max-width: 892px) {
+  .right-side img {
+    max-width: 365px;
+    height: auto;
+  }
   .banner-con {
     flex-direction: column-reverse;
     align-items: center;
@@ -106,8 +110,9 @@
   }
   .left-side {
     margin-top: 32px;
+    max-width: 365px;
   }
-  .form-download{
+  .form-download {
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -115,19 +120,26 @@
     padding: 20px;
     margin: 0 20px;
   }
-  .form-download p{
+  .form-download p {
     margin-bottom: 20px;
   }
-  .form-download form{
+  .form-download form {
+    max-width: 365px;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
   }
-  .form-download form input{
+  .form-download form input {
     margin-bottom: 20px;
     width: auto;
   }
-  .form-download form button{
+  .form-download form button {
     max-width: auto;
+  }
+  .btn-box {
+    height: 150px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
 }
